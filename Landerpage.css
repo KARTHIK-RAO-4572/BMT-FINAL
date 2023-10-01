@@ -1,78 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
-  margin: 0;
-  padding: 0;
-  outline: none;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+outline: none;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
 }
 body{
-  height: 100vh;
-  width: 100%;
-  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+height: 100vh;
+width: 100%;
+background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
 }
-
-
-
 body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center; 
-  align-items: left; 
-   
-  min-height: 100vh; 
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center; 
+align-items: left; 
+min-height: 100vh; 
 }
 .move-up {
-  position: absolute;
-  top: 270px; 
-  left: 50%; 
-  transform: translateX(-50%); 
+position: absolute;
+top: 270px; 
+left: 50%; 
+transform: translateX(-50%); 
 }
 .move-up-1{
-  position: absolute;
-  top: 330px; 
-  left: 50%; 
-  transform: translateX(-50%); 
+position: absolute;
+top: 330px; 
+left: 50%; 
+transform: translateX(-50%); 
 }
 .custom-button-1{
-
-  background-color: #56d8e4;
-  color: #fff; 
-  padding:10px,10px;
-  height:50px;
-  width:80px;
-  align-items: center;
-  border-radius: 5px;
-  cursor: pointer;
-  float:left; 
-  margin-left: -30px;
+background-color: #56d8e4;
+color: #fff; 
+padding:10px,10px;
+height:50px;
+width:80px;
+align-items: center;
+border-radius: 5px;
+cursor: pointer;
+float:left; 
+margin-left: -30px;
 }
 .custom-button-2{
-  
-  background-color: #56d8e4;
-  color: #fff; 
-  padding:10px,10px;
-  height:50px;
-  width:80px;
-  align-items: center;
-  border-radius: 5px;
-  cursor: pointer;
-  float:left; 
-  margin-left: 40px;
-
+background-color: #56d8e4;
+color: #fff; 
+padding:10px,10px;
+height:50px;
+width:80px;
+align-items: center;
+border-radius: 5px;
+cursor: pointer;
+float:left; 
+margin-left: 40px;
 }
-
-
 .custom-button:hover {
-  background-color: #b300a4;
+background-color: #b300a4;
 }
 .container {
-  text-align: center; 
-  margin-top: 100px;
-  
+text-align: center; 
+margin-top: 100px;
 }
 .page{
-  margin-top: 100px;
-
+margin-top: 100px;
 }
