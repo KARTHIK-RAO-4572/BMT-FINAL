@@ -24,10 +24,7 @@ body{
   border-radius: 5px;
   padding: 50px 35px 10px 35px;
   
-  background-image: url('BMT.bg.png');
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center; 
+
 
 }
 .container header{
@@ -191,4 +188,12 @@ form .page .btns button.next{
   border-color:rgb(35, 15, 55);
   border: 5px;
   background-color:rgb(105, 75, 103)
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: left; 
+  min-height: 100vh; 
 }
